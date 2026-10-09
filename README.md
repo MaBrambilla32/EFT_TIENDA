@@ -1,10 +1,10 @@
 ﻿# GameZone - Tienda de videojuegos
 
-## DescripciÃ³n
+## Descripción
 
-GameZone es una tienda web de videojuegos, consolas y accesorios. Permite revisar los productos, filtrarlos por categorÃ­a, agregarlos al carrito y eliminarlos cuando sea necesario. TambiÃ©n incluye un formulario de contacto con validaciÃ³n de datos.
+GameZone es una tienda web de videojuegos, consolas y accesorios. Permite revisar los productos, filtrarlos por categoría, agregarlos al carrito y eliminarlos cuando sea necesario. También incluye un formulario de contacto con validación de datos.
 
-## TecnologÃ­as utilizadas
+## Tecnologías utilizadas
 
 - HTML5
 - CSS3
@@ -15,41 +15,28 @@ GameZone es una tienda web de videojuegos, consolas y accesorios. Permite revisa
 
 ## Funcionalidades
 
-- CatÃ¡logo de productos cargado desde un archivo JSON.
-- Filtro por categorÃ­a.
-- Carrito de compras con opciÃ³n para agregar y eliminar productos.
-- CÃ¡lculo automÃ¡tico del total de la compra.
-- Formulario de contacto con validaciÃ³n de campos y correo electrÃ³nico.
-- DiseÃ±o adaptable a distintos tamaÃ±os de pantalla.
+- Catálogo de productos cargado desde un archivo JSON.
+- Filtro por categoría.
+- Carrito de compras con opción para agregar y eliminar productos.
+- Cálculo automático del total de la compra.
+- Formulario de contacto con validación de campos y correo electrónico.
+- Diseño adaptable a distintos tamaños de pantalla.
 
-## InstalaciÃ³n y ejecuciÃ³n
+## Instalación y ejecución
 
 1. Descargar o clonar el repositorio.
 2. Abrir la carpeta del proyecto en Visual Studio Code.
-3. Instalar las dependencias:
+3. Instalar las dependencias con `npm install`.
+4. Iniciar el proyecto con `npm run dev`.
+5. Abrir en el navegador la dirección que muestra la terminal.
 
-   ```bash
-   npm install
-   ```
+## Compilar para producción
 
-4. Iniciar el proyecto:
-
-   ```bash
-   npm run dev
-   ```
-
-5. Abrir en el navegador la direcciÃ³n que muestra la terminal.
-
-## Compilar para producciÃ³n
-
-Para generar la versiÃ³n de producciÃ³n, ejecutar:
-
-```bash
-npm run build
-```
+Para generar la versión de producción, ejecutar `npm run build`.
 
 Los archivos generados se guardan en la carpeta `dist`.
 
 ## Repositorio
 
 [GameZone - GitHub](https://github.com/MaBrambilla32/EFT_TIENDA)
+'@ | Set-Content .\README.md -Encoding utf8
