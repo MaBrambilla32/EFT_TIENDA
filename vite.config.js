@@ -3,5 +3,5 @@ import { defineConfig } from 'vite'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/GameZone-Sumativa3/',
+  base: '/EFT_TIENDA/',
 })
