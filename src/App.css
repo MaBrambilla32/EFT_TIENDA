@@ -1,165 +1,128 @@
 .app {
   min-height: 100vh;
-  background: #f2f2f2;
-  color: #222;
+  background-color: #181a20;
+  color: #eeeeF2;
 }
 
-header {
-  background: #1b1b1b;
-  color: white;
-  text-align: center;
-  padding: 35px 20px;
+.app header {
+  background-color: #15171d !important;
+  color: #ffffff;
 }
 
-header h1 {
-  margin: 0 0 20px;
-  font-size: 32px;
+.app .navbar {
+  background-color: #252a34 !important;
 }
 
-header p {
-  margin: 0;
-  font-size: 17px;
+.app .navbar .nav-link {
+  color: #d9dde5;
 }
 
-nav {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  background: #333;
-  padding: 15px;
+.app .navbar .nav-link:hover {
+  color: #ffffff;
 }
 
-nav a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
+.app main {
+  background-color: #181a20;
 }
 
-nav a:hover {
-  text-decoration: underline;
+.app h2 {
+  color: #f1f3f5;
 }
 
-main {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 30px 20px;
+.app .text-secondary {
+  color: #b6bdc8 !important;
 }
 
-section {
-  margin-bottom: 40px;
+.app .card {
+  background-color: #242730;
+  color: #eeeeF2;
+  border: 1px solid #373c47;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-h2 {
-  margin-bottom: 20px;
+.app .card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3) !important;
 }
 
-.lista-productos {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 25px;
+.app .card .card-title {
+  color: #ffffff;
 }
 
-.producto {
-  background: white;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
+.app .card .card-text {
+  color: #c9ced7;
 }
 
-/* efecto al pasar el mouse sobre los productos */
-.producto:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
-}
-
-.producto img {
+.imagen-producto {
   width: 100%;
   height: 220px;
   object-fit: contain;
-  border-radius: 8px;
-  display: block;
-  background: #f5f5f5;
+  padding: 12px;
+  background-color: #20232b;
 }
 
-.producto h3 {
-  margin: 15px 0 10px;
-}
-
-.producto p {
-  line-height: 1.5;
-  min-height: 48px;
-}
-
-.producto strong {
-  display: block;
-  margin: 15px 0;
-  font-size: 18px;
-}
-
-button {
-  border: none;
-  border-radius: 6px;
-  padding: 10px 15px;
-  background: #222;
-  color: white;
-  cursor: pointer;
-  transition: background 0.2s ease, transform 0.2s ease;
-}
-
-button:hover {
-  background: #444;
-  transform: scale(1.03);
-}
-
-button:disabled {
-  background: #777;
-  cursor: not-allowed;
-  transform: none;
-}
-
-.carrito {
-  background: white;
-  padding: 25px;
-  border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-.item-carrito {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 12px 0;
-  border-bottom: 1px solid #ddd;
-}
-
-.info-carrito {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-}
-
-.info-carrito img {
+.imagen-carrito {
   width: 70px;
   height: 70px;
+  max-width: 70px;
   object-fit: contain;
+  flex-shrink: 0;
+  background-color: #20232b;
   border-radius: 6px;
-  background: #f2f2f2;
 }
 
-.mensaje {
-  padding: 20px;
-  background: #e8e8e8;
-  border-radius: 8px;
+.app #carrito > div.d-flex {
+  background-color: #242730;
+  border-color: #373c47 !important;
+  color: #eeeeF2;
 }
 
-footer {
-  background: #1b1b1b;
-  color: white;
-  text-align: center;
-  padding: 25px;
+.app #carrito h3 {
+  color: #f1f3f5;
 }
 
-footer p {
-  margin: 8px 0;
+.app .form-label {
+  color: #e1e4ea;
+}
+
+.app .form-control,
+.app .form-select {
+  background-color: #242730;
+  color: #eeeeF2;
+  border-color: #454b57;
+}
+
+.app .form-control:focus,
+.app .form-select:focus {
+  background-color: #242730;
+  color: #ffffff;
+  border-color: #5795ff;
+  box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.2);
+}
+
+.app .form-control::placeholder {
+  color: #aeb5c0;
+}
+
+.app .alert-secondary {
+  background-color: #292d36;
+  color: #e1e4ea;
+  border-color: #3b414c;
+}
+
+.app footer {
+  background-color: #111318 !important;
+  color: #d9dde5;
+}
+
+@media (max-width: 576px) {
+  .imagen-producto {
+    height: 190px;
+  }
+
+  .imagen-carrito {
+    width: 55px;
+    height: 55px;
+    max-width: 55px;
+  }
 }

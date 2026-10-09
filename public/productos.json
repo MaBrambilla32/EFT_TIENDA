@@ -1,7 +1,9 @@
+
 [
   {
     "id": 1,
     "nombre": "PlayStation 5",
+    "categoria": "Consolas",
     "precio": 549990,
     "descripcion": "Consola de nueva generacion de Sony.",
     "imagen": "https://i5.walmartimages.com/seo/PlayStation-5-Digital-Console-Slim_91e7a797-79af-49e7-b3ef-b0e5c1991894.48de57593c6f87d79a43b448aa08df25.png?odnBg=FFFFFF&odnHeight=573&odnWidth=573"
@@ -9,6 +11,7 @@
   {
     "id": 2,
     "nombre": "Elden Ring",
+    "categoria": "Videojuegos",
     "precio": 49990,
     "descripcion": "Videojuego de accion y aventura para PlayStation 5.",
     "imagen": "https://i5.walmartimages.com/seo/Elden-Ring-PlayStation-5_924723e4-8c42-45cc-9659-128f3b0bafa7.8f36ab9cea2e8c147247b46d99098388.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573"
@@ -16,13 +19,15 @@
   {
     "id": 3,
     "nombre": "Xbox Wireless Controller",
+    "categoria": "Accesorios",
     "precio": 39990,
     "descripcion": "Control inalambrico oficial de Xbox para jugar con mayor comodidad.",
-    "imagen": "/imagenes/control.jpg"
+    "imagen": "imagenes/control.jpg"
   },
   {
     "id": 4,
     "nombre": "Nintendo Switch OLED",
+    "categoria": "Consolas",
     "precio": 349990,
     "descripcion": "Consola portatil con pantalla OLED.",
     "imagen": "https://i5-mx.walmartimages.com/samsmx/images/product-images/img_large/980031501l.jpg"
